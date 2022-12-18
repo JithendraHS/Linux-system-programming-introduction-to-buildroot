@@ -21,7 +21,7 @@ build: $(TARGET)
 
 $(TARGET):$(SOURCES)
 	$(CC) $(CFLAGS)
-	
+
 .PHONY: clean
 clean:
 	@echo "--cleaning--"
